@@ -16,9 +16,9 @@
     <dependencies>
     <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
     <dependency>
-    <groupId>org.apache.hadoop</groupId>
-    <artifactId>hadoop-common</artifactId>
-    <version>3.3.6</version>
+        <groupId>org.apache.hadoop</groupId>
+        <artifactId>hadoop-common</artifactId>
+        <version>3.3.6</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoopmapreduce-client-core -->
     <dependency>
@@ -44,5 +44,12 @@
             <artifactId>hadoop-mapreduce-client-jobclient</artifactId>
             <version>3.3.6</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+
     </dependencies>
 </project>
